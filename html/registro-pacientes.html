@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro pacientes</title>
+</head>
+<body>
+    <h1>formulario de registro de pacientes</h1>
+    <form id="FormRegistroPacientes">
+        <label ><b>Nombre</b></label> 
+        <input type="text" placeholder="ingrese su nombre" id="Nombre" required><br>
+        <label ><b>Apellido</b></label> 
+        <input type="text" placeholder="ingrese su apellido" id="Apellido" required><br>
+        <label ><b>Numero de cedula</b></label> 
+        <input type="number" placeholder="ingrese su cedula" id="CC" required><br>
+        <label ><b>Edad</b></label> 
+        <input type="number" placeholder="edad" id="Edad"><br>
+        <label ><b>Telefono</b></label> 
+        <input type="number" placeholder="ingrese su telefono" id="Telefono" required><br>
+        <label ><b>especialidad requeridad</b></label>
+        <select name="especialidad" id="Especialidad" required>
+            <option value="">selecione la especialidad</option>
+            <option value="medicina general">medicina general</option>
+            <option value="cardiología">cardiología</option>
+            <option value="medicina interna">medicina interna</option>
+            <option value="dermatologia">dermatologia</option>
+            <option value="rehabilitacion fisica">rehabilitacion fisica</option>
+            <option value="Psicología">Psicología</option>
+            <option value="Odontología">Odontología</option>
+            <option value="Radiología">Radiología</option>
+        </select><br><br>
+        <input type="submit" value="enviar">
+        </form>
+        <br>
+        <div>
+            <a href="../Index.html"><input type="button" value="volver"></a>
+        </div>
+    <script src="../app.js"></script>
+</body>
+</html>

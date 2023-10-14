@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro medico</title>
+</head>
+
+<body>
+    <h1>formulario de registro médico</h1>
+    <form id="FormRegistroMedicos">
+        <label>Nombre</label>
+        <input type="text" placeholder="ingrese su nombre" id="Nombre" name="Nombre" required><br>
+        <label>Apellido</label>
+        <input type="text" placeholder="ingrese su apellido" id="Apellido" name="Apellido" required><br>
+        <label>Numero de cedula</label>
+        <input type="number" placeholder="ingrese su cedula" id="CC" name="CC" required><br>
+        <label>Numero de consultorio</label>
+        <input type="number" placeholder="numero de consultorio" id="NumConsultorio" name="NumConsultorio" required><br>
+        <label>correo</label>
+        <input type="email" placeholder="ingrese su correo" id="Correo" name="Correo" required><br>
+        <label>Telefono</label>
+        <input type="number" placeholder="ingrese su telefono" id="Telefono" required><br>
+        <label>especialidad requeridad</label>
+        <select name="especialidad" id="Especialidad" required>
+            <option value="">selecione la especialidad</option>
+            <option value="medicina general">medicina general</option>
+            <option value="cardiología">cardiología</option>
+            <option value="medicina interna">medicina interna</option>
+            <option value="dermatologia">dermatologia</option>
+            <option value="rehabilitacion fisica">rehabilitacion fisica</option>
+            <option value="Psicología">Psicología</option>
+            <option value="Odontología">Odontología</option>
+            <option value="Radiología">Radiología</option>
+        </select><br><br>
+
+        <input type="submit" value="enviar">
+    </form>
+    <br>
+    <div>
+        <a href="../index.html"><input type="button" value="volver"></a>
+    </div>
+
+    <script src="../app.js"></script>
+</body>
+
+</html>
